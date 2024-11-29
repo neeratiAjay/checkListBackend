@@ -10,7 +10,7 @@ const app = express();
 app.use(express.static(path.join(__dirname, "public")));
 
 // Enable CORS
-app.use(cors());
+app.use(cors({ origin: 'http://localhost:4000' }));
 
 // Define the /api/evaluate route
 app.get("/api/evaluate", async (request, response) => {
