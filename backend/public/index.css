@@ -1,0 +1,35 @@
+.body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1{
+    text-align: center;
+}
+#result{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 4px 4px 4px 4px #bfbfbf;
+    border: none;
+    border-radius: 4px;
+    max-width: 300px;
+    background: #fff;
+}
+.rule{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+.status-passed{
+    font-weight: bold;
+    color: green;
+}
+.status-failed{
+    font-weight: bold;
+    color: red;
+}
