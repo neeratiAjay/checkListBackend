@@ -3,7 +3,7 @@
 const fetchResult = async ()=>{
     const resultDiv = document.getElementById("result")
     try{
-        const response = await fetch(" http://localhost:4000/api/evaluate")
+        const response = await fetch("api/evaluate")
         const data = await response.json()
         data.forEach(({rule,status})=>{
             const ruleElement = document.createElement("div")
